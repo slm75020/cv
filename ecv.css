@@ -144,7 +144,6 @@ main{
       justify-content: center;
     }
     .eval{
-      height: 130px;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
@@ -325,8 +324,6 @@ main{
       }
 
 
-
-
       .form{
         border: 5px solid black;
         border-radius: 10px;
@@ -355,13 +352,12 @@ main{
 
       }
       .eval{
-        height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
 
       }
-      #COMPETENCES>.eval>img{
+      #COMPETENCES> .eval> img{
         height: 20px;
       }
 
