@@ -335,10 +335,8 @@ main{
 
       }
       .form img{
-        position: absolute;
-        height: 30px;
         left: 15%;
-        margin: 2px;
+        margin: 5px;
       }
       .form ul{
         display: flex;
@@ -352,8 +350,10 @@ main{
         height: 200px;
       }
       .comp img{
+        left: 15%;
+        margin: 5px;
 
-        height: 20px;
+
 
       }
       .eval{
@@ -373,6 +373,8 @@ main{
       }
       .exp img{
         margin: 5px;
+        left: 15%;
+
       }
 
       .lang{
@@ -385,8 +387,7 @@ main{
 
       }
       .lang img{
-        position: absolute;
-        height: 30px;
+
         left: 15%;
         margin: 5px;
       }
