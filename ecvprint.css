@@ -1,0 +1,221 @@
+@media print {
+  *{
+    margin: 0pt;
+    padding: 0pt;
+
+  }
+
+
+  /*-------------------HEADER-----------------*/
+
+
+
+  header{
+    top: 0%;
+    left: 0%;
+    height: 270pt;
+    text-align: center;
+  }
+  h1{
+
+    font-size: 22pt;
+
+  }
+  h2{
+
+    font-size: 16pt;
+
+  }
+  h3{
+    display: none;
+  }
+
+  .tony{
+    position: absolute;
+    left: 2%;
+    top: 1%;
+    height: 10%;
+    width: 10%;
+    border-radius: 10%;
+
+  }
+  p{
+    position: absolute;
+    top: 8%;
+    left: 15%;
+
+
+  }
+  hr{
+    display: none;
+  }
+  .wam{
+    background-color: white;
+    color: black;
+    font-size: 13pt;
+
+  }
+
+
+
+  /*--------------------MAIN------------------------*/
+
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main a, img{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    height: 20pt;
+    align-items: center;
+  }
+
+
+  .pres{
+
+    display: none;
+
+  }
+
+  #moi{
+    display: flex;
+    text-align: center;
+  }
+
+  .form{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    text-align: center;
+    height:200pt;
+
+  }
+  .form img{
+    position: absolute;
+    left: 35%;
+    height: 20pt;
+  }
+
+  .comp{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    height: 200pt;
+    position: relative;
+    top: 100pt;
+
+  }
+  .comp img{
+    position: relative;
+    left: 35%;
+    height: 20pt;
+  }
+  .html{
+
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .css{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .js{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+  }
+  .word{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .eval{
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+  }
+  .exp{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    height:300pt;
+    position: relative;
+    top: 50pt;
+  }
+  .exp img{
+    position: absolute;
+    left: 5%;
+    margin: 1%;
+    height: 30pt;
+  }
+  .exp ul{
+    margin: 3%;
+  }
+
+
+  .lang{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    height: 200pt;
+    top:870pt;
+    position: absolute;
+
+  }
+  .lang img{
+    position: absolute;
+    left: 35%;
+    height: 20pt;
+  }
+  .pays li{
+    padding: 2%;
+    list-style: none;
+  }
+  .pays i{
+    position: relative;
+    left: 45%;
+    top: 1%;
+  }
+  .fun{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    height: 150pt;
+    position:absolute;
+    bottom: 1%;
+    width: 98%;
+  }
+
+
+  .lol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+  }
+  .lol img{
+    height: 40pt;
+    width: 40pt;
+    border-radius: 30pt;
+    border: 2pt solid black;
+    position: relative;
+    bottom: 5%;
+
+  }
+
+}
