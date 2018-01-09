@@ -247,26 +247,27 @@ main{
         top: 0px;
         left: 0px;
         height: 180px;
-        background-image: url(/home/blank-user15/Images/iconecv/footer.png);
+        width: 100%;
+        background-color: white;
         text-align: center;
       }
       h1{
         display: none;
       }
       h2{
-        color: white;
+        color: black;
         font-size: 20px;
-        top: 97px;
+        top: 80px;
         left: 110px;
         position: absolute;
         display: inline;
 
       }
       h3{
-        color: white;
+        color: black;
         font-size: 20px;
         position: absolute;
-        top: 3px;
+        top: 0px;
         left: 111px;
         display: inline;
       }
@@ -290,9 +291,9 @@ main{
 
       }
       .wam{
-        background-color: inherit;
+        background-color: black;
         position: relative;
-        top: 105px;
+        top: 117px;
 
       }
 
@@ -371,9 +372,6 @@ main{
 
       }
       .exp img{
-        position: absolute;
-        height: 30px;
-        left: 15%;
         margin: 5px;
       }
 
@@ -381,7 +379,6 @@ main{
         border: 5px solid black;
         border-radius: 10px;
         margin: 10px;
-        height: 230px;
         display: inline-flex;
         flex-direction: column;
         align-items: center;
@@ -394,8 +391,7 @@ main{
         margin: 5px;
       }
       .pays{
-        height: 145px;
-        width: 225px;
+
         display: inline-flex;
         flex-direction: column;
 
@@ -414,10 +410,7 @@ main{
         height: 155px;
       }
       .fun img{
-
-        height: 30px;
-
-        margin: 5px;
+        margin: auto;
       }
       .lol {
         display: flex;
