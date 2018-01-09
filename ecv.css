@@ -353,8 +353,6 @@ main{
         left: 15%;
         margin: 5px;
 
-
-
       }
       .eval{
         height: 100px;
@@ -363,6 +361,10 @@ main{
         justify-content: space-between;
 
       }
+      #COMPETENCES .eval img{
+        height: 20px;
+      }
+
       .exp{
         border: 5px solid black;
         border-radius: 10px;
