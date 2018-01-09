@@ -108,7 +108,7 @@ main{
       border: 5px solid black;
       border-radius: 10px;
       margin: 10px;
-      height: 220px;
+
 
     }
     .comp img{
@@ -347,7 +347,7 @@ main{
         border: 5px solid black;
         border-radius: 10px;
         margin: 10px;
-        height: 200px;
+
       }
       .comp img{
         left: 15%;
@@ -361,7 +361,7 @@ main{
         justify-content: space-between;
 
       }
-      #COMPETENCES .eval img{
+      #COMPETENCES>.eval>img{
         height: 20px;
       }
 
