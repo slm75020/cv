@@ -177,7 +177,7 @@ p{
   nav .dock{
     height: 360px;
     width: 80px;
-    top: 45%;
+    top: 35%;
     margin: 0px;
     padding: 0px;
     display: inline-flex;
@@ -254,7 +254,7 @@ p{
     box-shadow: 2px 3px 2px white;
   }
   p{
-    color: white;
+    color: black;
     position: absolute;
     left:36%;
     top: 75px;
