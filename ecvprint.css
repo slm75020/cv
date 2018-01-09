@@ -95,7 +95,7 @@
 
   }
   .form img{
-    position: absolute;
+
     left: 35%;
     height: 20pt;
   }
@@ -158,7 +158,7 @@
     top: 50pt;
   }
   .exp img{
-    position: absolute;
+
     left: 5%;
     margin: 1%;
     height: 30pt;
@@ -174,11 +174,11 @@
     margin: 1%;
     height: 200pt;
     top:870pt;
-    position: absolute;
+
 
   }
   .lang img{
-    position: absolute;
+
     left: 35%;
     height: 20pt;
   }
@@ -196,7 +196,7 @@
     border-radius: 10pt;
     margin: 1%;
     height: 150pt;
-    position:absolute;
+
     bottom: 1%;
     width: 98%;
   }
