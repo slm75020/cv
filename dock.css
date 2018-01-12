@@ -157,8 +157,7 @@ p{
     padding:0;
     min-height: 100%;
     background-image: url(footer.png);
-    display: flex;
-    flex-direction: column;
+
   }
 
   header{
@@ -169,7 +168,7 @@ p{
   nav .dock{
     height: 360px;
     width: 80px;
-    top: 33%;
+    top: 40%;
     margin: 0px;
     padding: 0px;
     display: inline-flex;
@@ -182,7 +181,7 @@ p{
     color: white;
     font-family: 'Press Start 2P', cursive;
     text-align: center;
-    top: 15px;
+    top: 25px;
     text-shadow: 10px 10px 2px grey;
   }
 
