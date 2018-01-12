@@ -167,6 +167,9 @@ p{
 
   nav {
     flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   nav .dock{
@@ -190,7 +193,7 @@ p{
 
   li {
     transition: all 0.3s ease-out;
-    margin: 0;
+    margin: 20px;
     padding: 0px;
 
 
