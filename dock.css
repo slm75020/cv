@@ -14,7 +14,7 @@ h1 ,h3{
   position: relative;
   text-align: center;
   top: 100px;
-  text-shadow: 10px 10px 2px black;
+  text-shadow: 10px 10px 2px grey;
 }
 
 
@@ -155,7 +155,7 @@ p{
 
   header{
     height: 200px;
-
+    
   }
 
   nav .dock{
@@ -166,14 +166,13 @@ p{
     padding: 0px;
     display: inline-flex;
     flex-direction: column;
-    left: 9px;
+    justify-content: center;
   }
 
 
   h1 ,h3{
     color: white;
     font-family: 'Press Start 2P', cursive;
-    position: relative;
     text-align: center;
     top: 15px;
   }
