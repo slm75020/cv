@@ -2,7 +2,7 @@
 body {
   margin:0;
   padding:0;
-  background-color: rgba(0, 1, 1, 0.7);
+  background-image: url(footer.png);
   width: 100%;
 }
 
@@ -17,24 +17,14 @@ h1 ,h3{
   text-shadow: 10px 10px 2px black;
 }
 
-.tony{
-  position: relative;
-  top: 150px;
-  left: 42%;
-  height: 150px;
-  width: 150px;
-  border-radius: 150px;
-  border: 1px solid white;
-}
+
 ul{
-  position: absolute;
-  bottom: 0;
+
   text-align: center;
   list-style: none;
   margin: 5px;
   padding: 0;
-  position: absolute;
-  left: 400px;
+
 
 }
 
@@ -100,10 +90,6 @@ li:hover span{
 footer{
   height: 80px;
   width: 100%;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  background-image: url(footer.png);
   border-top: 1px solid white;
 
 }
@@ -162,14 +148,14 @@ p{
     margin:0;
     padding:0;
     min-height: 100%;
-    background-color: rgb(0, 1, 1);
+    background-image: url(footer.png);
     display: flex;
     flex-direction: column;
   }
 
   header{
     height: 200px;
-    background-color: grey;
+
   }
 
   nav .dock{
@@ -191,15 +177,7 @@ p{
     text-align: center;
     top: 15px;
   }
-  .tony{
-    width: 100px;
-    height: 100px;
-    border-radius: 80px;
-    border: 1px solid white;
-    position: relative;
-    left: 100px;
-    top: 26px;
-  }
+
 
 
   li {
@@ -237,9 +215,6 @@ p{
 
     height: 21%;
     width: 100%;
-    position: absolute;
-    bottom: 0px;
-    background-image: url(footer.png);
 
   }
 
