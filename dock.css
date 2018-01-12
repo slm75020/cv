@@ -91,6 +91,8 @@ footer{
   height: 80px;
   width: 100%;
   border-top: 1px solid white;
+  position: absolute;
+  bottom: 0px;
 
 }
 .pied{
@@ -214,7 +216,7 @@ p{
   footer{
     position: absolute;
     bottom: 0;
-    
+    height: 40px;
     width: 100%;
 
   }
