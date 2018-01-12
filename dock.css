@@ -155,7 +155,7 @@ p{
 
   header{
     height: 200px;
-    
+
   }
 
   nav .dock{
@@ -175,6 +175,7 @@ p{
     font-family: 'Press Start 2P', cursive;
     text-align: center;
     top: 15px;
+    text-shadow: 10px 10px 2px grey;
   }
 
 
@@ -212,7 +213,7 @@ p{
 
   footer{
 
-    height: 10%;
+    height: 50px;
     width: 100%;
 
   }
