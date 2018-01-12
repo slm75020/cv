@@ -169,7 +169,7 @@ p{
   }
 
   nav .dock{
-    height: 380px;
+    height: 400px;
     width: 80px;
     display: inline-flex;
     flex-direction: column;
@@ -191,8 +191,8 @@ p{
 
   li {
     transition: all 0.3s ease-out;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     margin: 0;
     padding: 0px;
 
@@ -201,9 +201,9 @@ p{
 
 
   .dock img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
     background-color: white;
   }
 
