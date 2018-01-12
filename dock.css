@@ -165,7 +165,7 @@ p{
 
   }
 
-  nav {
+  .navico {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -188,7 +188,7 @@ p{
     text-align: center;
     text-shadow: 10px 10px 2px grey;
     margin-top: 10px;
-    font-size: 28pt;
+    font-size: 22pt;
   }
 
 
@@ -238,7 +238,7 @@ p{
     border-radius: 30px;
     border: 1px solid white;
     box-shadow: 2px 3px 2px white;
-    display: inherit;
+
   }
   p{
     color: white;
