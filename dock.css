@@ -163,7 +163,8 @@ p{
   header{
     height: 200px;
     width: 100%;
-    
+    display: flex;
+    justify-content: flex-start;
 
   }
 
