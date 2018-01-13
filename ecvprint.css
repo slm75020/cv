@@ -13,7 +13,7 @@
   header{
     top: 0%;
     left: 0%;
-    height: 270pt;
+
     text-align: center;
   }
   h1{
@@ -30,136 +30,103 @@
     display: none;
   }
 
+  .wam{
+    background-color: white;
+    color: black;
+    font-size: 13pt;
+    text-decoration: underline;
+  }
+  
   .tony{
-    position: absolute;
-    left: 2%;
-    top: 1%;
+    top: 5%;
     height: 10%;
     width: 10%;
     border-radius: 10%;
 
   }
   p{
-    position: absolute;
-    top: 8%;
-    left: 15%;
+    position: relative;
+    top: 150pt;
+    text-align: center;
+
 
 
   }
   hr{
     display: none;
   }
-  .wam{
-    background-color: white;
-    color: black;
-    font-size: 13pt;
 
-  }
 
 
 
   /*--------------------MAIN------------------------*/
 
-
-  main{
-    display: flex;
-    flex-direction: column;
-  }
-
-  main a, img{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    height: 20pt;
-    align-items: center;
-  }
-
-
   .pres{
 
     display: none;
-
-  }
-
-  #moi{
-    display: flex;
-    text-align: center;
   }
 
   .form{
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
     text-align: center;
-    height:200pt;
+
 
   }
   .form img{
-
-    left: 35%;
     height: 20pt;
+    width: 20pt;
+    position: relative;
+    text-align: center;
   }
 
   .comp{
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
-    height: 200pt;
-    position: relative;
-    top: 100pt;
+
 
   }
+
   .comp img{
-    position: relative;
-    left: 35%;
     height: 20pt;
-  }
-  .html{
-
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-  .css{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-  .js{
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-  }
-  .word{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .eval{
-    height: 55%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+
 
   }
+
+  #COMPETENCES < .eval < img{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+
+
+
   .exp{
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
-    height:300pt;
-    position: relative;
-    top: 50pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+
+
   }
   .exp img{
 
-    left: 5%;
+    position: relative;
     margin: 1%;
     height: 30pt;
   }
@@ -172,49 +139,50 @@
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
-    height: 200pt;
-    top:870pt;
+   }
 
-
-  }
   .lang img{
 
     left: 35%;
     height: 20pt;
+    position: relative;
+
   }
-  .pays li{
+  #langues < .pays < img{
     padding: 2%;
     list-style: none;
+    display: flex;
+    flex-direction: column;
+
   }
+
   .pays i{
-    position: relative;
-    left: 45%;
+    display: flex;
+    align-items: center;
     top: 1%;
   }
   .fun{
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
-    height: 150pt;
 
-    bottom: 1%;
-    width: 98%;
+
   }
-
-
-  .lol{
+  .lol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
   }
+
+
   .lol img{
-    height: 40pt;
-    width: 40pt;
-    border-radius: 30pt;
+    height: 20pt;
+    width: 20pt;
+    border-radius: 15pt;
     border: 2pt solid black;
-    position: relative;
-    bottom: 5%;
+    display: flex;
+    flex-direction: row;
+
 
   }
 
