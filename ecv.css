@@ -18,7 +18,7 @@ header{
   justify-content: space-around;
   margin: 10px;
   border: 5px solid black;
-  border-radius: 10px;
+  border-radius: 15px;
 
 }
 
@@ -29,7 +29,7 @@ h1{
 }
 h2{
 
-  font-size: 18px;
+  font-size: 1.5em;
   font-family: cursive;
 }
 h3{
@@ -256,12 +256,33 @@ main{
       /*-------------HEADER--------------*/
       /*-------------------------------*/
       header{
-        top: 0px;
-        left: 0px;
-        height: 180px;
-        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
         background-color: white;
         text-align: center;
+      }
+      .wam{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: auto;
+        background-color: black;
+      }
+      .tony{
+        height: 110px;
+        width: 90px;
+        border: 2px solid white;
+        padding: 2px;
+      }
+      .titre{
+        flex-direction: column;
+        display: inline-flex;
+        text-align: center;
+        justify-content: space-around;
+        margin: 10px;
+        border: 5px solid black;
+        border-radius: 15px;
+
       }
       h1{
         display: none;
@@ -269,18 +290,13 @@ main{
       h2{
         color: black;
         font-size: 20px;
-        top: 80px;
-        left: 110px;
-        position: absolute;
-        display: inline;
+        position: inherit;
+
 
       }
       h3{
         color: black;
-        font-size: 20px;
-        position: absolute;
-        top: 0px;
-        left: 111px;
+        font-size: 25px;
         display: inline;
       }
       hr{
@@ -291,23 +307,8 @@ main{
 
       }
 
-      .tony{
-        position: absolute;
-        left: 5px;
-        top: 1px;
-        height: 110px;
-        width: 90px;
-        border: 2px solid white;
-        padding: 2px;
 
 
-      }
-      .wam{
-        background-color: black;
-        position: relative;
-        top: 117px;
-
-      }
 
 
 
