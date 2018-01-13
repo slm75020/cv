@@ -8,7 +8,7 @@
 body{
   display: flex;
   flex-direction: column;
-  
+
 }
   /*-------------------HEADER-----------------*/
 
@@ -176,6 +176,8 @@ body{
     top: 1%;
   }
   .fun{
+    display: flex;
+    flex-direction: column;
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
