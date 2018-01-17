@@ -168,7 +168,7 @@ p{
   .navico {
     display: flex;
     justify-content: center;
-    height: 50%;
+    height: 100%;
     align-items: end;
 
   }
