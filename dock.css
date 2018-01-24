@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 
 body {
   margin:0;
@@ -72,6 +75,7 @@ li:hover span{
   height: 50px;
   border-radius: 50px;
   background-color: white;
+  transition: all 0.3s;
 }
 
 
@@ -100,9 +104,11 @@ footer{
 }
 .pied{
 
-  margin-top: 10px;
-  margin-left: 10px;
-
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 100%;
 }
 .pied img{
   height: 30px;
@@ -115,24 +121,23 @@ footer{
 
 p{
   color: white;
+  display: block;
   position:absolute;
-  left: 85%;
   top: 10px;
-  animation-duration: 3s;
+  right: 0%;
+  animation-duration: 1s;
   animation-name: slide;
+}
 
-    }
-    @keyframes slide {
-    from {
-      margin-left:100%;
-      width:300%;
-    }
-
-    to {
-      margin-left:0%;
-      width:100%;
-    }
+@keyframes slide {
+  from {
+    right:-100%;
   }
+
+  to {
+    right:0%;
+  }
+}
 
 
 /*-----------------------------------------*/

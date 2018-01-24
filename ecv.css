@@ -358,9 +358,9 @@ h3{
         border: 5px solid black;
         border-radius: 10px;
         margin: 10px;
-        height: 155px;
+        
       }
-      
+
       .lol {
         display: flex;
         flex-direction: row;
