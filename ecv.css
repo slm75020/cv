@@ -117,7 +117,7 @@ main{
       height: 30px;
     }
 
-    
+
     .exp{
       border: 5px solid black;
       border-radius: 10px;
@@ -153,6 +153,13 @@ main{
       position: relative;
       left: 250px;
       top: 10px;
+    }
+
+    .comp{
+      border: 5px solid black;
+      border-radius: 10px;
+      margin: 10px;
+      height: 100px;
     }
     .fun{
       border: 5px solid black;

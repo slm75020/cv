@@ -92,12 +92,7 @@ body{
 
 
   }
-  .form img{
-    height: 20pt;
-    width: 20pt;
-    position: relative;
-    text-align: center;
-  }
+
 
   .comp{
   display: none;
@@ -117,12 +112,7 @@ body{
 
 
   }
-  .exp img{
-
-    position: relative;
-    margin: 1%;
-    height: 30pt;
-  }
+  
   .exp ul{
     margin: 3%;
   }
@@ -159,6 +149,13 @@ body{
     align-items: center;
     top: 1%;
   }
+  .comp{
+    border: 3pt solid black;
+    border-radius: 10pt;
+    margin: 1%;
+    display: flex;
+    flex-direction: row;
+  }
   .fun{
     display: flex;
     flex-direction: column;
@@ -186,7 +183,7 @@ body{
 
 
   }
-  #top{
+  .haut{
     display: none;
   }
 
