@@ -83,7 +83,7 @@ body{
   .form{
     border: 3pt solid black;
     border-radius: 10pt;
-    margin: 1%;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,7 +95,7 @@ body{
   .exp{
     border: 3pt solid black;
     border-radius: 10pt;
-    margin: 1%;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +113,7 @@ body{
   .lang{
     border: 3pt solid black;
     border-radius: 10pt;
-    margin: 1%;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -144,7 +144,7 @@ body{
   .comp{
     border: 3pt solid black;
     border-radius: 10pt;
-    margin: 1%;
+    margin-top: 3%;
     display: block;
   }
   .rio{
@@ -156,7 +156,7 @@ body{
 
     border: 3pt solid black;
     border-radius: 10pt;
-    margin: 1%;
+    margin-top: 3%;
   }
   .lol {
     display: flex;
