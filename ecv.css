@@ -117,51 +117,7 @@ main{
       height: 30px;
     }
 
-    .comp{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-
-
-    }
-    .comp img{
-
-      height: 30px;
-    }
-    .html{
-
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-    }
-    .css{
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-    }
-    .js{
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-
-    }
-    .word{
-      width: 300px;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-    }
-    .eval{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-    }
+    
     .exp{
       border: 5px solid black;
       border-radius: 10px;
