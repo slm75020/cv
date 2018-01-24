@@ -293,37 +293,22 @@ h3{
         text-align: center;
 
       }
-      main a{
-        display: flex;
-        justify-content: center;
-        font-weight: bold;
-        margin: 10px;
-      }
+
       .pres{
         border: 5px solid black;
         border-radius: 10px;
         margin: 10px;
         display: block;
       }
-      .pres img{
-        position: absolute;
-        left: 15%;
-        margin: 2px;
-        height: 30px;
-      }
+
 
 
       .form{
         border: 5px solid black;
         border-radius: 10px;
         margin: 10px;
-
-
       }
-      .form img{
-        left: 15%;
-        margin: 5px;
-      }
+
       .form ul{
         display: flex;
         flex-direction: column;
@@ -335,20 +320,7 @@ h3{
         margin: 10px;
 
       }
-      .comp img{
-        left: 15%;
-        margin: 5px;
 
-      }
-      .eval{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-
-      }
-      #COMPETENCES> .eval> img{
-        height: 20px;
-      }
 
       .exp{
         border: 5px solid black;
@@ -356,11 +328,6 @@ h3{
         margin: 10px;
         height: 300px;
         overflow: auto;
-
-      }
-      .exp img{
-        margin: 5px;
-        left: 15%;
 
       }
 
@@ -373,11 +340,7 @@ h3{
         align-items: center;
 
       }
-      .lang img{
 
-        left: 15%;
-        margin: 5px;
-      }
       .pays{
 
         display: inline-flex;
@@ -397,9 +360,7 @@ h3{
         margin: 10px;
         height: 155px;
       }
-      .fun img{
-        margin: auto;
-      }
+      
       .lol {
         display: flex;
         flex-direction: row;
