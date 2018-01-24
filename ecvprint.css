@@ -110,9 +110,8 @@ body{
     align-content: center;
     text-align: center;
 
-
   }
-  
+
   .exp ul{
     margin: 3%;
   }
@@ -155,6 +154,7 @@ body{
     margin: 1%;
     display: flex;
     flex-direction: row;
+    text-align: center;
   }
   .fun{
     display: flex;
