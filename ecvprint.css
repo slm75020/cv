@@ -87,15 +87,8 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-
     text-align: center;
 
-
-  }
-
-
-  .comp{
-  display: none;
   }
 
 
@@ -152,18 +145,18 @@ body{
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
+    display: block;
+  }
+  .rio{
+    text-align: center;
     display: flex;
-    
+    justify-content: space-around;
   }
   .fun{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
     border: 3pt solid black;
     border-radius: 10pt;
     margin: 1%;
-
-
   }
   .lol {
     display: flex;

@@ -62,18 +62,13 @@ h3{
 /*--------------------MAIN------------------------*/
 
 
-main{
-  display: flex;
-  flex-direction: column;
-  }/*--display flex pour positionner toutes mes div en colonnes--*/
-
-  main a, img{
-    display: flex;
-    justify-content: center;
-    font-weight: bold;
-    height: 33px;
-    align-items: center;
-    }/*-- flex centre tout mes titres de div--*/
+    main{
+      display: flex;
+      flex-direction: column;
+    }/*--display flex pour positionner toutes mes div en colonnes--*/
+    h2{
+      text-align: center;
+    }
 
 
     .pres{
@@ -161,6 +156,17 @@ main{
       margin: 10px;
       height: 100px;
     }
+    .rio{
+      display: flex;
+      justify-content: space-around;
+
+
+    }
+    .rio img{
+      width: 40px;
+      height: 40px;
+    }
+
     .fun{
       border: 5px solid black;
       border-radius: 10px;
@@ -187,11 +193,16 @@ main{
     .haut{
       position: relative;
       bottom: 1px;
+      height: 30px;
+      width: 30px;
+      left: 50%;
+
+
+    }
+    .haut img{
       height: 20px;
       width: 20px;
-      left: 50%;
       border-radius: 20px;
-
     }
 
     /*---------------------------------------------------------------------*/
