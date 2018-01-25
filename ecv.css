@@ -90,7 +90,11 @@ h3{
       display: flex;
       text-align: center;
     }
+    p{
+      color: black;
+      display: block;
 
+    }
     .form{
       border: 5px solid black;
       border-radius: 10px;
@@ -205,10 +209,25 @@ h3{
       border-radius: 20px;
     }
     footer{
-      height: 80px;
       width: 100%;
       border-top: 1px solid white;
       bottom: 0px;
+      background-image: url(footer.png);
+      opacity: 0.7;
+    }
+    .haut{
+      position: relative;
+      bottom: 1px;
+      height: 30px;
+      width: 30px;
+      left: 50%;
+    }
+    .haut img{
+      height: 20px;
+      width: 20px;
+      border-radius: 20px;
+      border: 2px solid black;
+      color: white;
     }
     .pied{
 
@@ -224,14 +243,26 @@ h3{
       border-radius: 30px;
       border: 1px solid white;
       box-shadow: 2px 3px 2px white;
+    }
+    .retour{
+      height: 30px;
+      width: 30px;
+    }
+    .retour img{
+      height: 20px;
+      width: 20px;
+      color: white;
+
 
     }
-    p{
+    .pied p{
       color: white;
       display: block;
-      
       top: 10px;
       right: 0%;
+    }
+    a{
+      text-decoration: none;
     }
     /*---------------------------------------------------------------------*/
     /*------------------RESPONSIVE----------------------------------------*/
