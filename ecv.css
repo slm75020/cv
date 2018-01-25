@@ -204,7 +204,35 @@ h3{
       width: 20px;
       border-radius: 20px;
     }
+    footer{
+      height: 80px;
+      width: 100%;
+      border-top: 1px solid white;
+      bottom: 0px;
+    }
+    .pied{
 
+      padding: 10px;
+      position: relative;
+      overflow: hidden;
+      display: block;
+      height: 100%;
+    }
+    .pied img{
+      height: 30px;
+      width: 30px;
+      border-radius: 30px;
+      border: 1px solid white;
+      box-shadow: 2px 3px 2px white;
+
+    }
+    p{
+      color: white;
+      display: block;
+      
+      top: 10px;
+      right: 0%;
+    }
     /*---------------------------------------------------------------------*/
     /*------------------RESPONSIVE----------------------------------------*/
     /*--------------------------------------------------------------------*/

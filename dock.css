@@ -180,7 +180,7 @@ p{
   nav .dock{
     height: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: end;
 
@@ -207,9 +207,9 @@ p{
 
 
   .dock img{
-    width: 70px;
-    height: 70px;
-    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
     background-color: white;
   }
 
