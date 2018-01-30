@@ -7,6 +7,7 @@ body {
   padding:0;
   background-image: url(footer.png);
   width: 100%;
+  display: flex;
 }
 
 header{
@@ -16,11 +17,7 @@ header{
   justify-content: space-around;
   width: 15vw;
 }
-main{
-  width: 85vw;
-  height: 90vh;
 
-}
 h1 ,h3{
   color: white;
   font-family: 'Press Start 2P', cursive;
@@ -96,150 +93,292 @@ li:hover span{
   box-shadow: 9px 5px 21px white;
 
 }
-
-
-
-footer{
-  height: 80px;
-  width: 100%;
-  border-top: 1px solid white;
-  position: absolute;
-  bottom: 0px;
-
+header{
+  display: flex;
+  flex-direction: row;
 }
-.pied{
-
-  padding: 10px;
-  position: relative;
-  overflow: hidden;
-  display: block;
-  height: 100%;
-}
-.pied img{
-  height: 30px;
-  width: 30px;
-  border-radius: 30px;
-  border: 1px solid white;
-  box-shadow: 2px 3px 2px white;
+.titre{
+  flex-direction: column;
+  display: inline-flex;
+  text-align: center;
+  justify-content: space-around;
+  margin: 10px;
+  border: 5px solid black;
+  border-radius: 15px;
 
 }
 
-p{
+h1{
+
+  font-size: 2em;
+  font-family: cursive;
+  color: black;
+}
+h2{
+
+  font-size: 1.5em;
+  font-family: cursive;
+
+}
+h3{
+  display: none;
+  font-family: cursive;
+  color: black;
+}
+.wam{
+  background-color: black;
   color: white;
-  display: block;
-  position:absolute;
-  top: 10px;
-  right: 0%;
-  animation-duration: 1s;
-  animation-name: slide;
+  font-size: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  margin: 10px;
+  border-radius: 15px;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+}
+.tony{
+  height: 130px;
+  width: 110px;
+  border-radius: 20px;
+  border: 5px solid white;
+  padding: 5px;
 }
 
-@keyframes slide {
-  from {
-    right:-100%;
+
+
+/*--------------------MAIN------------------------*/
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 90vh;
+  background-color: white;
+
+
+
+  }/*--display flex pour positionner toutes mes div en colonnes--*/
+  h2{
+    text-align: center;
   }
 
-  to {
-    right:0%;
-  }
-}
 
-
-/*-----------------------------------------*/
-/*---------RESPONSIVE----------------------*/
-
-
-@media screen and (max-width: 600px){
-
-  *{
-    margin: 0px;
-    padding: 0px;
-  }
-  html body{
-    height: 100%;
-    width: 100%;
-  }
-  body {
-    margin:0;
-    padding:0;
-    min-height: 100%;
-    background-image: url(footer.png);
-
+  .pres{
+    border: 5px solid black;
+    border-radius: 10px;
+    display: none;
+    margin: 10px;
   }
 
-  header{
-    height: 100vh;
-    width: 100%;
+  .pres img{
+  
+    left: 10%;
+    margin: 2px;
+    height: 30px;
+    width: 30px;
+  }
+
+  #moi{
     display: flex;
-    justify-content: flex-start;
+    text-align: center;
+  }
+  p{
+    color: black;
+    display: block;
+
+  }
+  .form{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
 
   }
 
-  .navico {
-    height: 40%;
+  .form ul{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    flex-direction: column;
+    list-style: none;
+  }
+  .form img{
+    position: absolute;
+    left: 5%;
+    margin: 2px;
+    height: 30px;
   }
 
-  nav .dock{
+
+  .exp{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .exp img{
+    position: absolute;
+    left: 5%;
+    margin: 2px;
+    height: 30px;
+  }
+  .exp ul{
+    margin: 30px;
+  }
+
+
+  .lang{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .lang img{
+    position: absolute;
+    left: 5%;
+    margin: 2px;
+    height: 30px;
+  }
+  .pays li{
+    padding: 10px;
+    list-style: none;
+  }
+  .pays i{
+    position: relative;
+    left: 250px;
+    top: 10px;
+  }
+
+  .comp{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 100px;
+  }
+  .rio{
+    display: flex;
+    justify-content: space-around;
+
+
+  }
+  .rio img{
+    width: 40px;
+    height: 40px;
+  }
+
+  .fun{
+    border: 5px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    height: 120px;
+  }
+
+
+  .lol{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: end;
+    justify-content: space-around;
 
   }
+  .lol img{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 10px;
+  }
+
+  .haut{
+    position: relative;
+    bottom: 1px;
+    height: 30px;
+    width: 30px;
+    left: 50%;
 
 
-  h1 ,h3{
+  }
+  .haut img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+  }
+  footer{
+    width: 100%;
+    border-top: 1px solid white;
+    bottom: 0px;
+    background-image: url(footer.png);
+    opacity: 0.7;
+  }
+  .haut{
+    position: relative;
+    bottom: 1px;
+    height: 30px;
+    width: 30px;
+    left: 50%;
+  }
+  .haut img{
+    height: 20px;
+    width: 20px;
+    border-radius: 20px;
+    border: 2px solid black;
     color: white;
-    font-family: 'Press Start 2P', cursive;
-    text-align: center;
-    text-shadow: 10px 10px 2px grey;
-    margin-top: 10px;
-    font-size: 22pt;
   }
+  .pied{
 
-
-
-  li {
-    transition: all 0.3s ease-out;
-    padding: 0px;
-
-
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 100%;
   }
-
-
-  .dock img{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    background-color: white;
-  }
-
-
-.dock img:hover {
-    transform: scale(2);
-    margin: 20px;
-    margin-top: -15px;
-    top: -10px;
-    position:relative;
+  .pied img{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
     border: 1px solid white;
-    width: 55px;
-    height: 55px;
-    z-index: 2;
-    box-shadow: 9px 5px 21px white;
+    box-shadow: 2px 3px 2px white;
   }
+  .retour{
+    height: 30px;
+    width: 30px;
+  }
+  .retour img{
+    height: 20px;
+    width: 20px;
+    color: white;
+
+
+  }
+  .pied p{
+    color: white;
+    display: block;
+    top: 10px;
+    right: 0%;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+
 
   footer{
-    position: absolute;
-    bottom: 0;
-    height: 50px;
+    height: 80px;
     width: 100%;
+    border-top: 1px solid white;
+    position: absolute;
+    bottom: 0px;
 
   }
+  .pied{
 
-
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    height: 100%;
+  }
   .pied img{
     height: 30px;
     width: 30px;
@@ -248,16 +387,141 @@ p{
     box-shadow: 2px 3px 2px white;
 
   }
+
   p{
     color: white;
-    left: 50%;
-    animation-duration: 3s;
-    animation-name: none;
+    display: block;
+    position:absolute;
+    top: 10px;
+    right: 0%;
+    animation-duration: 1s;
+    animation-name: slide;
+  }
 
+  @keyframes slide {
+    from {
+      right:-100%;
+    }
+
+    to {
+      right:0%;
+    }
   }
-  a{
-    height: 30px;
-    width: 30px;
-    text-decoration: none;
+
+
+  /*-----------------------------------------*/
+  /*---------RESPONSIVE----------------------*/
+
+
+  @media screen and (max-width: 600px){
+
+    *{
+      margin: 0px;
+      padding: 0px;
+    }
+    html body{
+      height: 100%;
+      width: 100%;
+    }
+    body {
+      margin:0;
+      padding:0;
+      min-height: 100%;
+      background-image: url(footer.png);
+
+    }
+
+    header{
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+
+    }
+
+    .navico {
+      height: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+
+    nav .dock{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: end;
+
+    }
+
+
+    h1 ,h3{
+      color: white;
+      font-family: 'Press Start 2P', cursive;
+      text-align: center;
+      text-shadow: 10px 10px 2px grey;
+      margin-top: 10px;
+      font-size: 22pt;
+    }
+
+
+
+    li {
+      transition: all 0.3s ease-out;
+      padding: 0px;
+
+
+    }
+
+
+    .dock img{
+      width: 60px;
+      height: 60px;
+      border-radius: 60px;
+      background-color: white;
+    }
+
+
+    .dock img:hover {
+      transform: scale(2);
+      margin: 20px;
+      margin-top: -15px;
+      top: -10px;
+      position:relative;
+      border: 1px solid white;
+      width: 55px;
+      height: 55px;
+      z-index: 2;
+      box-shadow: 9px 5px 21px white;
+    }
+
+    footer{
+      position: absolute;
+      bottom: 0;
+      height: 50px;
+      width: 100%;
+
+    }
+
+
+    .pied img{
+      height: 30px;
+      width: 30px;
+      border-radius: 30px;
+      border: 1px solid white;
+      box-shadow: 2px 3px 2px white;
+
+    }
+    p{
+      color: white;
+      left: 50%;
+      animation-duration: 3s;
+      animation-name: none;
+
+    }
+    a{
+      height: 30px;
+      width: 30px;
+      text-decoration: none;
+    }
   }
-}
