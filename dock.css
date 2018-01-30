@@ -27,7 +27,7 @@ h1 ,h3{
   position: relative;
   text-align: center;
   text-shadow: 10px 10px 2px grey;
-  font-size: 3vw;
+  font-size: 2vw;
   padding-left: 10px;
 }
 
@@ -45,7 +45,6 @@ ul{
 li {
   transition: all 0.3s ease-out;
   margin: 2px;
-  display: inline-block;
   padding: 0px;
   position: relative;
   top: 0;
