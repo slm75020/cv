@@ -10,19 +10,25 @@ body {
 }
 
 header{
-  height: 100vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  width: 15vw;
+}
+main{
+  width: 85vw;
+  height: 90vh;
 
 }
-
 h1 ,h3{
   color: white;
   font-family: 'Press Start 2P', cursive;
   position: relative;
   text-align: center;
   text-shadow: 10px 10px 2px grey;
+  font-size: 3vw;
+  padding-left: 10px;
 }
 
 
