@@ -11,7 +11,7 @@ body {
 }
 
 header{
-  height: 90vh;
+  height: 88vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -155,258 +155,277 @@ main{
   display: flex;
   flex-direction: column;
   overflow: auto;
-  height: 90vh;
+  height: 88vh;
   background-color: white;
 
 
 
-  }/*--display flex pour positionner toutes mes div en colonnes--*/
-  h2{
-    text-align: center;
-  }
+}/*--display flex pour positionner toutes mes div en colonnes--*/
+
+h2{
+  text-align: center;
+}
 
 
-  .pres{
-    border: 5px solid black;
-    border-radius: 10px;
-    display: none;
-    margin: 10px;
-  }
+.pres{
+  border: 5px solid black;
+  border-radius: 10px;
+  display: none;
+  margin: 10px;
+}
 
-  .pres img{
-  
-    left: 10%;
-    margin: 2px;
-    height: 30px;
-    width: 30px;
-  }
+.pres img{
 
-  #moi{
-    display: flex;
-    text-align: center;
-  }
-  p{
-    color: black;
-    display: block;
+  left: 10%;
+  margin: 2px;
+  height: 30px;
+  width: 30px;
+}
 
-  }
-  .form{
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    text-align: center;
+#moi{
+  display: flex;
+  text-align: center;
+}
+p{
+  color: black;
+  display: block;
 
-
-  }
-
-  .form ul{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-  }
-  .form img{
-    position: absolute;
-    left: 5%;
-    margin: 2px;
-    height: 30px;
-  }
+}
+.form{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
 
 
-  .exp{
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 10px;
-  }
-  .exp img{
-    position: absolute;
-    left: 5%;
-    margin: 2px;
-    height: 30px;
-  }
-  .exp ul{
-    margin: 30px;
-  }
+}
+
+.form ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.form img{
+  position: absolute;
+  left: 5%;
+  margin: 2px;
+  height: 30px;
+}
 
 
-  .lang{
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 10px;
-  }
-  .lang img{
-    position: absolute;
-    left: 5%;
-    margin: 2px;
-    height: 30px;
-  }
-  .pays li{
-    padding: 10px;
-    list-style: none;
-  }
-  .pays i{
-    position: relative;
-    left: 250px;
-    top: 10px;
-  }
-
-  .comp{
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    height: 100px;
-  }
-  .rio{
-    display: flex;
-    justify-content: space-around;
+.exp{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.exp img{
+  position: absolute;
+  left: 5%;
+  margin: 2px;
+  height: 30px;
+}
+.exp ul{
+  margin: 30px;
+}
 
 
-  }
-  .rio img{
-    width: 40px;
-    height: 40px;
-  }
+.lang{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.lang img{
+  position: absolute;
+  left: 5%;
+  margin: 2px;
+  height: 30px;
+}
+.pays li{
+  padding: 10px;
+  list-style: none;
+}
+.pays i{
+  position: relative;
+  left: 250px;
+  top: 10px;
+}
 
-  .fun{
-    border: 5px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    height: 120px;
-  }
-
-
-  .lol{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-
-  }
-  .lol img{
-    height: 30px;
-    width: 30px;
-    border-radius: 20px;
-    border: 1px solid black;
-    position: relative;
-    bottom: 10px;
-  }
-
-  .haut{
-    position: relative;
-    bottom: 1px;
-    height: 30px;
-    width: 30px;
-    left: 50%;
+.comp{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+.rio{
+  display: flex;
+  justify-content: space-around;
 
 
-  }
-  .haut img{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-  }
-  footer{
-    width: 100%;
-    border-top: 1px solid white;
-    bottom: 0px;
-    background-image: url(footer.png);
-    opacity: 0.7;
-  }
-  .haut{
-    position: relative;
-    bottom: 1px;
-    height: 30px;
-    width: 30px;
-    left: 50%;
-  }
-  .haut img{
-    height: 20px;
-    width: 20px;
-    border-radius: 20px;
-    border: 2px solid black;
-    color: white;
-  }
-  .pied{
+}
+.rio img{
+  width: 40px;
+  height: 40px;
+}
 
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
-    display: block;
-    height: 100%;
-  }
-  .pied img{
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    border: 1px solid white;
-    box-shadow: 2px 3px 2px white;
-  }
-  .retour{
-    height: 30px;
-    width: 30px;
-  }
-  .retour img{
-    height: 20px;
-    width: 20px;
-    color: white;
+.fun{
+  border: 5px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
 
 
-  }
-  .pied p{
-    color: white;
-    display: block;
-    top: 10px;
-    right: 0%;
-  }
-  a{
-    text-decoration: none;
-  }
+.lol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+.lol img{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+  position: relative;
+  bottom: 10px;
+}
+
+.haut{
+  position: relative;
+  bottom: 1px;
+  height: 30px;
+  width: 30px;
+  left: 50%;
+
+
+}
+.haut img{
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+}
+footer{
+  width: 100%;
+  border-top: 1px solid white;
+  bottom: 0px;
+  background-image: url(footer.png);
+  opacity: 0.7;
+}
+.haut{
+  position: relative;
+  bottom: 1px;
+  height: 30px;
+  width: 30px;
+  left: 50%;
+}
+.haut img{
+  height: 20px;
+  width: 20px;
+  border-radius: 20px;
+  border: 2px solid black;
+  color: white;
+}
+.pied{
+
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+}
+.pied img{
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 2px 3px 2px white;
+}
+.retour{
+  height: 30px;
+  width: 30px;
+}
+.retour img{
+  height: 20px;
+  width: 20px;
+  color: white;
+
+
+}
+.pied p{
+  color: white;
+  display: block;
+  top: 10px;
+  right: 0%;
+}
+a{
+  text-decoration: none;
+}
 
 
 
 
-  footer{
-    height: 80px;
-    width: 100%;
-    border-top: 1px solid white;
-    position: absolute;
-    bottom: 0px;
+footer{
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid white;
+  position: absolute;
+  bottom: 0px;
 
+}
+.pied{
+
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+}
+.pied img{
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 2px 3px 2px white;
+
+}
+
+p{
+  color: black;
+  display: block;
+  animation-duration: 1s;
+  animation-name: slide;
+}
+
+p#copyright {
+  color: white;
+  position:absolute;
+  top: 10px;
+  right: 0%;
+}
+
+/* MARIN */
+
+div#introduction {
+  display: flex;
+}
+
+div#introduction > * {
+  height: 100%;
+}
+
+main > * {
+  margin: 20px 10px !important;
+}
+
+/* FIN MARIN */
+
+@keyframes slide {
+  from {
+    right:-100%;
   }
-  .pied{
 
-    padding: 10px;
-    position: relative;
-    overflow: hidden;
-    display: block;
-    height: 100%;
+  to {
+    right:0%;
   }
-  .pied img{
-    height: 30px;
-    width: 30px;
-    border-radius: 30px;
-    border: 1px solid white;
-    box-shadow: 2px 3px 2px white;
-
-  }
-
-  p{
-    color: white;
-    display: block;
-    position:absolute;
-    top: 10px;
-    right: 0%;
-    animation-duration: 1s;
-    animation-name: slide;
-  }
-
-  @keyframes slide {
-    from {
-      right:-100%;
-    }
-
-    to {
-      right:0%;
-    }
-  }
+}
 
 
   /*-----------------------------------------*/
