@@ -10,7 +10,7 @@ ul {
 body {
   margin:0;
   padding:0;
-  background-image: url(footer.png);
+  background-image: url(img/footer.png);
   width: 100%;
   display: flex;
 }
@@ -306,7 +306,7 @@ footer{
   width: 100%;
   border-top: 1px solid white;
   bottom: 0px;
-  background-image: url(footer.png);
+  background-image: url(img/footer.png);
   opacity: 0.7;
 }
 .haut{
@@ -399,6 +399,7 @@ p#copyright {
   position:absolute;
   top: 10px;
   right: 0%;
+  padding: 0px 20px;
 }
 
 p.tete ~ p, p.tete {
@@ -484,7 +485,7 @@ p.tete ~ p, p.tete {
       margin:0;
       padding:0;
       min-height: 100%;
-      background-image: url(footer.png);
+      background-image: url(img/footer.png);
 
     }
 
