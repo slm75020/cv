@@ -161,13 +161,7 @@ h2{
 
 }
 
-.pres img{
 
-  left: 10%;
-  margin: 2px;
-  height: 30px;
-  width: 30px;
-}
 
 #moi{
   display: flex;
@@ -191,12 +185,7 @@ p{
   flex-direction: column;
   list-style: none;
 }
-.form img{
-  position: absolute;
-  left: 5%;
-  margin: 2px;
-  height: 30px;
-}
+
 
 
 .exp{
@@ -204,12 +193,7 @@ p{
   border-radius: 10px;
 
 }
-.exp img{
-  position: absolute;
-  left: 5%;
-  margin: 2px;
-  height: 30px;
-}
+
 .exp ul{
   margin: 15px;
   max-height: 300px;
@@ -280,20 +264,7 @@ p{
   bottom: 10px;
 }
 
-.haut{
-  position: relative;
-  bottom: 1px;
-  height: 30px;
-  width: 30px;
-  left: 50%;
 
-
-}
-.haut img{
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
-}
 footer{
   width: 100%;
   border-top: 1px solid white;
@@ -504,20 +475,7 @@ p.tete ~ p, p.tete {
 
     }
 
-    .navico {
-      height: 40%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-    }
 
-    nav .dock{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: end;
-
-    }
 
 
     h1 ,h3{
