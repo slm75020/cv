@@ -424,6 +424,8 @@ p.tete ~ p, p.tete {
       padding:0;
       min-height: 100%;
       background-image: none;
+      display: flex;
+      flex-direction: column;
 
     }
     #accueil > header {
@@ -473,7 +475,7 @@ p.tete ~ p, p.tete {
     footer{
       height: auto;
       width: 100%;
-      border-top: 1px solid white;
+      border-top: 1px solid black;
     /*  position: absolute;*/
       bottom: 0px;
 
