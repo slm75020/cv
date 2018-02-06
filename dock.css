@@ -23,19 +23,20 @@ header{
   width: 15vw;
 }
 
-h1, h3{
-  color: white;
+h1 {
   position: relative;
   text-align: center;
   text-shadow: 5px 5px 2px grey;
-  font-size: 2vw;
+  font-size: 200%;
   padding-left: 10px;
 }
 
  nav.navico {
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
+
 ul.dock {
   display: flex;
   flex-direction: column;
@@ -43,8 +44,6 @@ ul.dock {
   list-style: none;
   margin: 5px;
   padding: 0;
-
-
 }
 
 li {
@@ -53,8 +52,6 @@ li {
   padding: 0px;
   position: relative;
   top: 0;
-
-
 }
 
 a {
@@ -79,39 +76,34 @@ a {
   margin: 10px 0px;
   z-index: 2;
   box-shadow: 9px 5px 21px white;
-
 }
+
 header{
   display: flex;
   flex-direction: row;
 }
+
 .titre{
   flex-direction: column;
-  display: inline-flex;
+  display: flex;
   text-align: center;
   justify-content: space-around;
   margin: 10px;
   border: 5px solid black;
   border-radius: 15px;
-
 }
 
 h1{
-
   font-size: 1.5em;
   font-family: 'Press Start 2P';
   color: black;
 }
+
 h2{
 
   font-size: 1.3em;
   font-family: 'Press Start 2P';
 
-}
-h3{
-  display: none;
-  font-family: 'Press Start 2P';
-  color: black;
 }
 .wam{
   background-color: black;
@@ -169,13 +161,7 @@ h2{
 
 }
 
-.pres img{
 
-  left: 10%;
-  margin: 2px;
-  height: 30px;
-  width: 30px;
-}
 
 #moi{
   display: flex;
@@ -199,12 +185,7 @@ p{
   flex-direction: column;
   list-style: none;
 }
-.form img{
-  position: absolute;
-  left: 5%;
-  margin: 2px;
-  height: 30px;
-}
+
 
 
 .exp{
@@ -212,12 +193,7 @@ p{
   border-radius: 10px;
 
 }
-.exp img{
-  position: absolute;
-  left: 5%;
-  margin: 2px;
-  height: 30px;
-}
+
 .exp ul{
   margin: 15px;
   max-height: 300px;
@@ -288,20 +264,7 @@ p{
   bottom: 10px;
 }
 
-.haut{
-  position: relative;
-  bottom: 1px;
-  height: 30px;
-  width: 30px;
-  left: 50%;
 
-
-}
-.haut img{
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
-}
 footer{
   width: 100%;
   border-top: 1px solid white;
@@ -427,7 +390,15 @@ p.tete ~ p, p.tete {
 
 
   @media screen and (max-width: 600px){
+    body {
+      margin:0;
+      padding:0;
+      min-height: 100%;
+      background-image: none;
+      display: flex;
+      flex-direction: column;
 
+    }
     #accueil > header {
       display: none;
     }
@@ -441,9 +412,8 @@ p.tete ~ p, p.tete {
       width: 100%;
       margin: 0;
     }
-
     .wam {
-      margin-bottom: 10px !important;
+      margin-bottom: 10px ;
     }
 
     .wam > div {
@@ -473,6 +443,14 @@ p.tete ~ p, p.tete {
     #copyright{
       display: none;
     }
+    footer{
+      height: auto;
+      width: 100%;
+      border-top: 1px solid black;
+    /*  position: absolute;*/
+      bottom: 0px;
+
+    }
     /* *{
       margin: 0px;
       padding: 0px;
@@ -497,20 +475,7 @@ p.tete ~ p, p.tete {
 
     }
 
-    .navico {
-      height: 40%;
-      display: flex;
-      justify-content: center;
-      align-items: flex-end;
-    }
 
-    nav .dock{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: end;
-
-    }
 
 
     h1 ,h3{
