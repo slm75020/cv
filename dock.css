@@ -16,10 +16,11 @@ body {
 }
 
 header{
-  height: 89vh;
+
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: center;
   width: 15vw;
 }
 
@@ -78,10 +79,7 @@ a {
   box-shadow: 9px 5px 21px white;
 }
 
-header{
-  display: flex;
-  flex-direction: row;
-}
+
 
 .titre{
   flex-direction: column;
@@ -266,66 +264,6 @@ p{
 
 
 footer{
-  width: 100%;
-  border-top: 1px solid white;
-  bottom: 0px;
-  background-image: url(img/footer.png);
-  opacity: 0.7;
-}
-.haut{
-  position: relative;
-  bottom: 1px;
-  height: 30px;
-  width: 30px;
-  left: 50%;
-}
-.haut img{
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
-  border: 2px solid black;
-  color: white;
-}
-.pied{
-
-  padding: 10px;
-  position: relative;
-  overflow: hidden;
-  display: block;
-  height: 100%;
-}
-.pied img{
-  height: 30px;
-  width: 30px;
-  border-radius: 30px;
-  border: 1px solid white;
-  box-shadow: 2px 3px 2px white;
-}
-.retour{
-  height: 30px;
-  width: 30px;
-}
-.retour img{
-  height: 20px;
-  width: 20px;
-  color: white;
-
-
-}
-.pied p{
-  color: white;
-  display: block;
-  top: 10px;
-  right: 0%;
-}
-a{
-  text-decoration: none;
-}
-
-
-
-
-footer{
   height: 80px;
   width: 100%;
   border-top: 1px solid white;
@@ -349,6 +287,9 @@ footer{
   box-shadow: 2px 3px 2px white;
 
 }
+.haut{
+  text-align: center;
+}
 
 p{
   color: black;
@@ -369,6 +310,12 @@ p.tete ~ p, p.tete {
   margin: 3px 0px;
   padding: 0px 20px 5px;
 }
+a{
+  text-decoration: none;
+}
+
+
+
 
 
 
@@ -404,7 +351,7 @@ p.tete ~ p, p.tete {
     }
 
     div#introduction {
-      flex-direction: column;
+      display: block;
       margin: 0;
     }
 
@@ -423,7 +370,6 @@ p.tete ~ p, p.tete {
     display: flex;
     flex-direction: column;
     overflow: auto;
-    height: 84vh;
     background-color: white;
     }
     .pied{
