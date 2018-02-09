@@ -136,12 +136,14 @@ p{
 .lang img{
   height: 30px;
 }
-
+.pays {
+  display: flex;
+  justify-content: space-around;
+}
 .pays li{
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: start;
   padding: 10px;
 }
 
@@ -320,6 +322,9 @@ p#copyright {
     flex-direction: column;
     overflow: auto;
     background-color: white;
+    }
+    .pays{
+      display: block;
     }
     .pied{
     display: flex;
