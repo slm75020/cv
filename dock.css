@@ -25,9 +25,6 @@ h1 {
   padding-left: 10px;
 }
 
-
-
-
 .titre{
   flex-direction: column;
   display: flex;
@@ -202,7 +199,7 @@ footer{
 nav.navico {
   position: fixed;
   bottom: 10px;
-  left: 30%;
+  left: 35%;
 }
 
 ul.dock {
