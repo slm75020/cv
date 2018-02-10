@@ -51,6 +51,12 @@ h2{
 .wam em{
   padding: 5px;
 }
+.pacman{
+  height: 30px;
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
 .approche{
   flex-direction: column;
   display: flex;
@@ -172,6 +178,7 @@ p{
   flex-direction: row;
   justify-content: space-around;
   padding: 15px;
+  margin: 10px;
 
 }
 .lol img{
@@ -320,17 +327,6 @@ p#copyright {
     .pays{
       display: block;
     }
-    .pied{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    }
-    a{
-      height: 34px;
-      width: 34px;
-      text-decoration: none;
-      margin: 5px;
-    }
 
     #copyright{
       display: none;
@@ -343,6 +339,18 @@ p#copyright {
       background-image: url(img/footer.png);
 
     }
+    .pied{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    a{
+      height: 34px;
+      width: 34px;
+      text-decoration: none;
+      margin: 5px;
+    }
+
     .navico{
       display: none;
     }
