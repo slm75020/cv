@@ -80,9 +80,7 @@
     border-radius: 5pt;
   }
   .dev{
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
+
   }
   .fun{
     border: 1pt solid black;
@@ -90,12 +88,9 @@
 
   }
   .lol {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+
   }
   .lol img{
-  
     border-radius: 5pt;
     border: 1pt solid black;
 

@@ -1,40 +1,35 @@
-*{
-  margin: 0px;
-  padding: 0px;
+* {
+  box-sizing: border-box;
+  font-family: 'Source Code Pro';
+}
+
+ul {
+  padding: 0;
+}
+
+body {
+  margin:0;
+  padding:0;
+  width: 100%;
 
 }
 
 
-/*-------------------HEADER-----------------*/
 
-header{
-  display: flex;
-  flex-direction: row;
-}
-.titre{
-  flex-direction: column;
-  display: inline-flex;
+h1 {
+  position: relative;
   text-align: center;
-  justify-content: space-around;
-  margin: 10px;
-  border: 5px solid black;
-  border-radius: 15px;
-
+  text-shadow: 5px 5px 2px grey;
+  padding-left: 10px;
+  font-size: 1.4em;
+  font-family: 'Press Start 2P';
+  color: white;
 }
 
-h1{
-
-  font-size: 2em;
-  font-family: cursive;
-}
 h2{
-
-  font-size: 1.5em;
-  font-family: cursive;
-}
-h3{
-  display: none;
-  font-family: cursive;
+  font-size: 1.3em;
+  font-family: 'Press Start 2P';
+  text-align: center;
 }
 .wam{
   background-color: black;
@@ -42,363 +37,314 @@ h3{
   font-size: 15px;
   display: flex;
   flex-direction: column;
-  width: 255px;
+  justify-content: space-around;
   margin: 10px;
   border-radius: 15px;
   align-items: center;
   text-align: center;
 }
-.tony{
-  height: 130px;
+.photo{
   width: 120px;
   border-radius: 20px;
   border: 5px solid white;
   padding: 5px;
+  margin: 10px;
+}
+.wam em{
+  padding: 5px;
+}
+.approche{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border: 5px solid black;
+  border-radius: 15px;
+}
+
+main > * {
+  margin: 15px 10px !important;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  height: 89vh;
+  background-color: white;
+
+}
+
+.pres{
+  border: 5px solid black;
+  border-radius: 10px;
+  display: none;
+
+}
+
+#moi{
+  display: flex;
+  text-align: center;
+}
+p{
+  color: black;
+  display: block;
+
+}
+.form{
+  border: 5px solid black;
+  border-radius: 10px;
+  text-align: center;
+
+
+}
+
+.form ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
 
 
-/*--------------------MAIN------------------------*/
+.exp{
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+
+.exp ul{
+  margin: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.exp ul li:not(:last-child) {
+  padding: 0px 0px 30px;
+}
 
 
-    main{
+.lang{
+  border: 5px solid black;
+  border-radius: 10px;
+}
+
+.lang img{
+  height: 30px;
+}
+.pays {
+  display: flex;
+  justify-content: space-around;
+}
+.pays li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.pays li i {
+  padding-left: 20px;
+}
+
+.comp{
+  border: 5px solid black;
+  border-radius: 10px;
+}
+.dev{
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+
+}
+.dev img{
+  width: 40px;
+  height: 40px;
+}
+
+.fun{
+  border: 5px solid black;
+  border-radius: 10px;
+
+}
+
+.lol{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 15px;
+
+}
+.lol img{
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+  border: 1px solid black;
+
+}
+
+
+footer{
+  height: 80px;
+  width: 100%;
+  border-top: 1px solid white;
+  position: absolute;
+  bottom: 0px;
+  background-image: url(img/footer.png);
+
+}
+nav.navico {
+  position: fixed;
+  bottom: 10px;
+  left: 35%;
+}
+
+ul.dock {
+ display: flex;
+ flex-direction: row;
+ text-align: center;
+ list-style: none;
+ margin: 5px;
+ padding: 0;
+}
+
+li {
+ transition: all 0.3s ease-out;
+ margin: 2px;
+ padding: 0px;
+ position: relative;
+ top: 0;
+}
+
+a {
+ height: 50px;
+ width: 50px;
+ text-decoration: none;
+}
+
+.dock img{
+ width: 50px;
+ height: 50px;
+ border-radius: 50px;
+ background-color: white;
+ transition: all 0.2s;
+}
+
+
+.dock img:hover {
+ transform: scale(1.5);
+ position:relative;
+ border: 1px solid white;
+ margin: 10px 0px;
+ z-index: 2;
+ box-shadow: 9px 5px 21px white;
+}
+
+
+.pied{
+  padding: 10px;
+  position: relative;
+  overflow: hidden;
+  display: block;
+  height: 100%;
+}
+.pied img{
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 2px 3px 2px white;
+
+}
+
+p.tete ~ p, p.tete {
+  margin: 3px 0px;
+  padding: 0px 20px 5px;
+}
+a{
+  text-decoration: none;
+}
+p{
+  color: black;
+  display: block;
+  animation-duration: 1s;
+  animation-name: slide;
+}
+
+p#copyright {
+  color: white;
+  position:absolute;
+  top: 10px;
+  right: 0%;
+  padding: 0px 20px;
+}
+
+@keyframes slide {
+  from {
+    right:-100%;
+  }
+
+  to {
+    right:0%;
+  }
+}
+
+
+  /*-----------------------------------------*/
+  /*---------RESPONSIVE----------------------*/
+
+
+  @media screen and (max-width: 600px){
+    body {
+      margin:0;
+      padding:0;
+      min-height: 100%;
+      background-image: none;
       display: flex;
       flex-direction: column;
-    }
-    h2{
-      text-align: center;
+
     }
 
+    .wam {
+      margin-bottom: 10px ;
+    }
 
-    .pres{
-      border: 5px solid black;
-      border-radius: 10px;
-      display: none;
+    .wam > div {
       margin: 10px;
     }
-
-
-
-    #moi{
-      display: flex;
-      text-align: center;
+    main {
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background-color: white;
     }
-    p{
-      color: black;
+    .pays{
       display: block;
-
-    }
-    .form{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-      text-align: center;
-
-
-    }
-
-    .form ul{
-      display: flex;
-      flex-direction: column;
-      list-style: none;
-    }
-
-
-
-    .exp{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
-
-    .exp ul{
-      margin: 30px;
-    }
-
-
-    .lang{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
-    .lang img{
-      height: 30px;
-    }
-    .pays li{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: start;
-      padding: 10px;
-    }
-    .pays li  i{
-      padding-left: 20px;
-    }
-
-    .comp{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
-    .rio{
-      display: flex;
-      justify-content: space-around;
-      padding: 15px;
-
-    }
-    .rio img{
-      width: 40px;
-      height: 40px;
-    }
-
-    .fun{
-      border: 5px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
-
-
-    .lol{
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-
-    }
-    .lol img{
-      height: 30px;
-      width: 30px;
-      border-radius: 20px;
-      border: 1px solid black;
-      position: relative;
-      bottom: 10px;
-    }
-
-
-    footer{
-      width: 100%;
-      border-top: 1px solid white;
-      bottom: 0px;
-      background-image: url(img/footer.png);
-      opacity: 0.7;
-    }
-    .haut{
-    text-align: center;
-    }
-    .haut img{
-      height: 20px;
-      width: 20px;
-      border-radius: 20px;
-      border: 2px solid black;
-      color: white;
     }
     .pied{
-
-      padding: 10px;
-      position: relative;
-      overflow: hidden;
-      display: block;
-      height: 100%;
-    }
-    .pied img{
-      height: 30px;
-      width: 30px;
-      border-radius: 30px;
-      border: 1px solid white;
-      box-shadow: 2px 3px 2px white;
-    }
-
-    p#copyright{
-      color: white;
-      display:inline;
-      top: 10px;
-      animation-duration: 1s;
-      animation-name: slide
-      right: 0%;
-      padding: 0px 20px;
-    }
-    @keyframes slide {
-      from {
-        right:-100%;
-      }
-      to {
-        right:0%;
-      }
+    display: flex;
+    justify-content: center;
+    align-items: center;
     }
     a{
+      height: 34px;
+      width: 34px;
       text-decoration: none;
+      margin: 5px;
     }
-    /*---------------------------------------------------------------------*/
-    /*------------------RESPONSIVE----------------------------------------*/
-    /*--------------------------------------------------------------------*/
 
-    @media screen and (max-width: 600px){
+    #copyright{
+      display: none;
+    }
+    footer{
+      height: auto;
+      width: 100%;
+      border-top: 1px solid black;
+      bottom: 0px;
+      background-image: url(img/footer.png);
 
-      *{
-        margin: 0px;
-        padding: 0px;
-        font-family: tahoma;
-      }
-
-      html body{
-        height: 100%;
-        width: 100%;
-      }
-
-      body {
-        margin:0;
-        padding:0;
-        min-height: 100%;
-      }
-
-      /*-------------HEADER--------------*/
-      /*-------------------------------*/
-      header{
-        display: flex;
-        flex-direction: column-reverse;
-        background-color: white;
-        text-align: center;
-      }
-      .wam{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: space-around;
-        width: auto;
-        background-color: black;
-      }
-      .tony{
-        height: 110px;
-        width: 90px;
-        border: 2px solid white;
-        padding: 2px;
-      }
-      .titre{
-        flex-direction: column;
-        display: inline-flex;
-        text-align: center;
-        justify-content: space-around;
-        margin: 10px;
-        border: 5px solid black;
-        border-radius: 15px;
-
-      }
-      h1{
-        display: none;
-      }
-      h2{
-        color: black;
-        font-size: 20px;
-        font-family: arial;
-        position: inherit;
-
-
-      }
-      h3{
-        color: black;
-        font-size: 25px;
-        font-family: arial;
-        display: inline;
-      }
-      hr{
-        display: none;
-      }
-      p{
-        display: none;
-
-      }
-
-
-
-
-
-
-      /*-----------MAIN--------------*/
-      /*---------------------------------*/
-      main{
-        text-align: center;
-
-      }
-
-      .pres{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-        display: block;
-      }
-
-
-
-      .form{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-      }
-
-      .form ul{
-        display: flex;
-        flex-direction: column;
-        list-style: none;
-      }
-      .comp{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-
-      }
-
-
-      .exp{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-        height: 300px;
-        overflow: auto;
-
-      }
-
-      .lang{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: center;
-
-      }
-
-      .pays{
-
-        display: inline-flex;
-        flex-direction: column;
-
-      }
-      .pays i{
-        position: relative;
-        left: 30px;
-        top: 10px;
-
-      }
-
-      .fun{
-        border: 5px solid black;
-        border-radius: 10px;
-        margin: 10px;
-
-      }
-
-      .lol {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-      }
-      footer{
-
-        width: 100%;
-        background-image: url(img/footer.png);
-        border-top: 1px solid white;
-
-
-      }
-      .haut{
-        text-align: center;
-      }
+    }
+    .navico{
+      display: none;
+    }
