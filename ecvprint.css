@@ -5,182 +5,110 @@
 
   }
 
-body{
-  display: flex;
-  flex-direction: column;
+  body{
+    margin:0;
+    padding:0;
+    width: 100%;
 
-}
-  /*-------------------HEADER-----------------*/
-
-
-
-  header{
-    display: flex;
-    flex-direction: row;
   }
-  .titre{
-    flex-direction: column;
-    display: inline-flex;
-    text-align: center;
-    justify-content: space-around;
-    margin: 10px;
-    border: 5px solid black;
-    border-radius: 15px;
-
+  main > * {
+    margin: 1pt 0pt !important;
+    font-size: 9pt;
   }
 
   h1{
 
-    font-size: 2em;
+    font-size: 14pt;
     font-family: cursive;
   }
   h2{
 
-    font-size: 22pt;
+    font-size: 12pt;
     font-family: cursive;
   }
-  h3{
-    display: none;
-    font-family: cursive;
-  }
+
   .wam{
     background-color: white;
     color: black;
-    font-size: 11pt;
-    text-decoration: underline;
-    display: flex;
-    flex-direction: column;
-    width: 255px;
-    margin: 10px;
-    border-radius: 15px;
-    height: 250px;
-    align-items: center;
-    text-align: center;
-    border: 5px solid black;
+    font-size: 10pt;
+    border: 1pt solid black;
+    border-radius: 5pt;
+
   }
-  .tony{
-    height: 130px;
-    width: 110px;
-    border-radius: 20px;
-    border: 5px solid black;
-    padding: 5px;
+  .photo{
+    border-radius: 5pt;
+    border: 1pt solid black;
+    padding: 5pt;
   }
+  .approche{
+
+    border: 1pt solid black;
+    border-radius: 5pt;
   }
   hr{
     display: none;
   }
 
-
-
-
-  /*--------------------MAIN------------------------*/
-
-  .pres{
-
-    display: none;
-  }
-
   .form{
-    border: 3pt solid black;
-    border-radius: 10pt;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    border: 1pt solid black;
+    border-radius: 5pt;
+
 
   }
-
-
   .exp{
-    border: 3pt solid black;
-    border-radius: 10pt;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
+    border: 1pt solid black;
+    border-radius: 5pt;
+
 
   }
-
-  .exp ul{
-    margin: 3%;
-  }
-
 
   .lang{
-    border: 3pt solid black;
-    border-radius: 10pt;
-    margin-top: 3%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-
-   }
-
-  .lang img{
-    height: 20pt;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
+    border: 1pt solid black;
+    border-radius: 5pt;
   }
+
   #langues < .pays < img{
-    padding: 2%;
+    padding: 1pt;
     list-style: none;
-    display: flex;
-    flex-direction: column;
 
   }
-
-  .pays i{
-    display: flex;
-    align-items: center;
-    top: 1%;
+  br{
+    display: none;
   }
   .comp{
-    border: 3pt solid black;
-    border-radius: 10pt;
-    margin-top: 3%;
-    display: block;
+    border: 1pt solid black;
+    border-radius: 5pt;
   }
-  .rio{
+  .dev{
     text-align: center;
     display: flex;
     justify-content: space-around;
   }
   .fun{
+    border: 1pt solid black;
+    border-radius: 5pt;
 
-    border: 3pt solid black;
-    border-radius: 10pt;
-    margin-top: 3%;
   }
   .lol {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
   }
-
-
   .lol img{
-    height: 20pt;
-    width: 20pt;
-    border-radius: 15pt;
-    border: 2pt solid black;
-    display: flex;
-    flex-direction: row;
-
+  
+    border-radius: 5pt;
+    border: 1pt solid black;
 
   }
   footer{
     display: none;
   }
-
-  .haut{
+  .nav{
     display: none;
   }
+  .navico{
+    display: none;
+  }
+
 
 }
