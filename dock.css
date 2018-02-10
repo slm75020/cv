@@ -10,7 +10,6 @@ ul {
 body {
   margin:0;
   padding:0;
-  background-image: url(img/footer.png);
   width: 100%;
 
 }
@@ -21,23 +20,10 @@ h1 {
   position: relative;
   text-align: center;
   text-shadow: 5px 5px 2px grey;
-  font-size: 200%;
   padding-left: 10px;
-}
-
-.titre{
-  flex-direction: column;
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-  border: 5px solid black;
-  border-radius: 15px;
-}
-
-h1{
   font-size: 1.4em;
   font-family: 'Press Start 2P';
-  color: black;
+  color: white;
 }
 
 h2{
@@ -57,12 +43,23 @@ h2{
   align-items: center;
   text-align: center;
 }
-.tony{
-  height: 140px;
+.photo{
+  width: 120px;
   border-radius: 20px;
   border: 5px solid white;
   padding: 5px;
   margin: 10px;
+}
+.wam em{
+  padding: 5px;
+}
+.approche{
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  border: 5px solid black;
+  border-radius: 15px;
 }
 
 main > * {
@@ -155,13 +152,13 @@ p{
   border: 5px solid black;
   border-radius: 10px;
 }
-.rio{
+.dev{
   display: flex;
   justify-content: space-around;
   padding: 15px;
 
 }
-.rio img{
+.dev img{
   width: 40px;
   height: 40px;
 }
@@ -171,7 +168,6 @@ p{
   border-radius: 10px;
 
 }
-
 
 .lol{
   display: flex;
@@ -185,8 +181,7 @@ p{
   width: 30px;
   border-radius: 20px;
   border: 1px solid black;
-  position: relative;
-  bottom: 10px;
+
 }
 
 
@@ -196,6 +191,7 @@ footer{
   border-top: 1px solid white;
   position: absolute;
   bottom: 0px;
+  background-image: url(img/footer.png);
 
 }
 nav.navico {
