@@ -55,7 +55,7 @@ h2{
   height: 30px;
   width: 30px;
   border: 1px solid white;
-  border-radius: 5px;
+  border-radius: 30px;
 }
 .approche{
   flex-direction: column;
@@ -191,7 +191,6 @@ p{
 
 
 footer{
-  height: 80px;
   width: 100%;
   border-top: 1px solid white;
   position: absolute;
@@ -332,7 +331,6 @@ p#copyright {
       display: none;
     }
     footer{
-      height: auto;
       width: 100%;
       border-top: 1px solid black;
       bottom: 0px;
