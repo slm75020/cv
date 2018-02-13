@@ -3,16 +3,12 @@
   font-family: 'Source Code Pro';
 }
 
-
-
 body {
   margin:0;
   padding:0;
   width: 100%;
 
 }
-
-
 
 h1 {
   position: relative;
@@ -36,7 +32,6 @@ h2{
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 10px;
   border-radius: 15px;
   align-items: center;
   text-align: center;
@@ -50,6 +45,9 @@ h2{
 }
 .wam em{
   padding: 5px;
+}
+.game{
+  background-color: navy;
 }
 .pacman{
   height: 20px;
@@ -108,8 +106,6 @@ p{
   border: 5px solid black;
   border-radius: 10px;
   text-align: center;
-
-
 }
 
 .form ul{
@@ -118,12 +114,9 @@ p{
   list-style: none;
 }
 
-
-
 .exp{
   border: 5px solid black;
   border-radius: 10px;
-
 }
 
 .exp ul{
@@ -319,7 +312,9 @@ p#copyright {
       flex-direction: column;
 
     }
-
+    h2{
+      font-size: 1em;
+    }
     .wam {
       margin-bottom: 10px ;
     }
