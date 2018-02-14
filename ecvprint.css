@@ -94,7 +94,9 @@
 
   }
   .lol img{
-    border-radius: 5pt;
+    height: 18pt;
+    width: 18pt;
+    border-radius: 10pt;
     border: 1pt solid black;
 
   }
